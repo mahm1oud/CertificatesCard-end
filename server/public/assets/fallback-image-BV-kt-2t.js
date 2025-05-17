@@ -1,0 +1,1 @@
+import{r as t,j as f}from"./index-DoMHCGG2.js";function E({src:r,alt:s,fallbackSrc:a="/static/default-logo.svg",className:g="",width:n,height:i}){const[l,o]=t.useState(r),[m,e]=t.useState(!1);t.useEffect(()=>{o(r),e(!1)},[r]);const c=()=>{m||(console.log("Error loading image:",r),o(a),e(!0))};return f.jsx("img",{src:l,alt:s,className:g,width:n,height:i,onError:c})}export{E as F};
